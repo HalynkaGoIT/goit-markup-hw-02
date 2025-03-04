@@ -11,7 +11,7 @@ height: 72px;
 }
 
 .logo {
-    font-family: "Raleway", sans-serif,
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
@@ -21,7 +21,7 @@ color: #4d5ae5;
 }
 
 .logospan {
-    font-family: "Raleway", sans-serif,
+font-family: "Raleway", sans-serif;
 font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -46,6 +46,10 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
+}
+
+.contact-adr {
+    font-style: normal;
 }
 
 .contact-link {
