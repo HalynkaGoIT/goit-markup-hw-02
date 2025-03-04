@@ -2,6 +2,7 @@ body {
 background: #fff;
 font-family: "Roboto", sans-serif;
 margin: 0;
+color: #434455;
 }
 
 .site-header {
@@ -10,14 +11,20 @@ height: 72px;
 }
 
 .logo {
-    font-family: "Raleway", sans-serif;
     font-weight: 700;
+font-size: 18px;
+line-height: 1.16667;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;    
+}
+
+.logospan {
+font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
-    
     color: #2e2f42;
 }
 
