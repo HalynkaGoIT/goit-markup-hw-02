@@ -49,10 +49,14 @@ color: #2e2f42;
 }
 
 .menu-list:hover {
-color: #404bbf
+color: #404bbf;
 }
 
-.contact-adr {
+.menu-list:focus {
+color: #404bbf;
+}
+
+.contact-adress {
     font-style: normal;
 }
 
@@ -64,6 +68,14 @@ color: #404bbf
     color: #434455;
 }
 
+.contact-link:hover {
+color: #404bbf;
+}
+
+.contact-link:focus {
+    color: #404bbf;
+}
+
 .hero {
 background: #2e2f42;
 width: 1440px;
@@ -73,7 +85,7 @@ height: 600px;
 .hero-title {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
@@ -85,7 +97,7 @@ height: 600px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
-        
+       
 display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -99,8 +111,15 @@ display: flex;
 
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
             background: #4d5ae5;
-            cursor: pointer;
-                
+            cursor: pointer;             
+}
+
+.hero-button:hover {
+    background-color: #404bbf;
+}
+
+.hero-button:focus {
+    background-color: #404bbf;
 }
 
 .features-box {
@@ -113,9 +132,10 @@ display: flex;
 }
 
 .title {
+    text-transform: capitalize;
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
