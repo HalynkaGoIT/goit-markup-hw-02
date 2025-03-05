@@ -258,6 +258,13 @@ width: 1128px;
 }
 
 .foot-logo {
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
 display: flex;
 align-items: center;
 justify-content: flex-start;
@@ -265,6 +272,10 @@ flex-direction: row;
 gap: 0px;
 width: 115px;
 height: 24px;
+}
+
+.foot-logospan {
+color: #f4f4fd;
 }
 
 .foot-text {
