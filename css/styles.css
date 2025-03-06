@@ -4,9 +4,16 @@ font-family: "Roboto", sans-serif;
 color: #434455;
 }
 
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
 .logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
+font-family: "Raleway", sans-serif;
+font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
@@ -17,11 +24,11 @@ color: #4d5ae5;
 .logospan {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2e2f42;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2e2f42;
 }
 
 .menu-list {
@@ -41,15 +48,15 @@ color: #404bbf;
 }
 
 .contact-adress {
-    font-style: normal;
+font-style: normal;
 }
 
 .contact-link {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 
 .contact-link:hover {
@@ -57,7 +64,7 @@ color: #404bbf;
 }
 
 .contact-link:focus {
-    color: #404bbf;
+color: #404bbf;
 }
 
 .hero {
@@ -65,114 +72,105 @@ background: #2e2f42;
 }
 
 .hero-title {
-    font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #fff;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
 }
 
 .hero-button {
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #fff;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
 background: #4d5ae5;
-            cursor: pointer;             
+cursor: pointer;             
 }
 
 .hero-button:hover {
-    background-color: #404bbf;
+background-color: #404bbf;
 }
 
 .hero-button:focus {
-    background-color: #404bbf;
+background-color: #404bbf;
 }
 
 .title {
-    text-transform: capitalize;
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
+text-transform: capitalize;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
 }
 
 .title-featers {
 font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;   
 }
 
 .text-featers {
 font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 
 .team-box {
-        background: #f4f4fd;
+background: #f4f4fd;
 }
 
 .team-card {
 background: #fff;
 }
 
-.team-image {
-        background: url("path_to_image");
-}
-
 .team-name {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
 }
 
 .team-position {
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #434455;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
 }
 
 .portfolio-card {
-    background: #fff;
+background: #fff;
 }
 
 .portfolio-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
 }
 
 .portfolio-category {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.portfolio-image {
-    background: url("path_to_image");
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 
 .foot-box {
-    background: #2e2f42;
+background: #2e2f42;
 }
 
 .foot-logo {
